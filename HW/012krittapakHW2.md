@@ -34,7 +34,7 @@
     return quantity * unit_price
 
 
-**ตัวอย่างที่ไม่ใช้code smell**
+**ตัวอย่างที่ไม่ใช่code smell**
     
     def calculate_late_fee(days_late):
     """
