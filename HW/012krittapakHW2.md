@@ -5,6 +5,7 @@
 
 
 **ตัวอย่าง** 
+    
     def calc(x, y, z):
     # ตรวจสอบว่า x มากกว่า 0 หรือไม่
     if x > 0:
@@ -21,6 +22,7 @@
 
 
 **refactor**
+    
     def calculate_price(quantity, is_special_mode, unit_price):
     if quantity <= 0:
         return 0
@@ -32,6 +34,7 @@
 
 
 **ตัวอย่างที่ไม่ใช้code smell**
+    
     def calculate_late_fee(days_late):
     """
     Business rule:
