@@ -1,27 +1,23 @@
 **Utility Class**
 
-Systemm.IO.File
+  Systemm.IO.File
 
-เรียกใช้ผ่านชื่อ class ตรง ๆ
+    เรียกใช้ผ่านชื่อ class ตรง ๆ
 
-File.ReadAllText(.txt);
-
-File.Exists(.txt);
+    File.ReadAllText(.txt);
+    File.Exists(.txt);
 
 **Mutable Class**
 
-System.IO.FileSystemInfo
+  System.IO.FileSystemInfo
 
-เปลี่ยนสถานะได้
+    เปลี่ยนสถานะได้
 
-
-file.IsReadOnly
-
-file.MoveTo(".txt");
-
+    file.IsReadOnly
+    file.MoveTo(".txt");
 
 **Immutable Class**
 
-System.Diagnostics.ActivityTraceId
+  System.Diagnostics.ActivityTraceId
 
-เปลี่ยนค่าไม่ได้
+    เปลี่ยนค่าไม่ได้
